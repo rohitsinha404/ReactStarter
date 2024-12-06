@@ -1,20 +1,32 @@
 import "./App.css";
 import Footer from "./componets/Footer";
 import Header from "./componets/Header";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
     <main className="flex justify-center gap-4 flex-col min-h-screen">
       <Header />
-      <h1 className="text-3xl text-center font-bold underline">
-        React & Tailwind CSS Starter Pack
-      </h1>
-      <p className="text-center text-xl">
-        This is a starter pack for React & Tailwind CSS projects.
-      </p>
-      <img src="https://bit.ly/3wsmzTy" alt="meme" className="mx-auto" />
+
+      <ContactPage />
+      <ExampleComponent />
+
       <Footer />
     </main>
+  );
+}
+
+function ExampleComponent() {
+  return (
+    <div className="bg-primary text-whitePrimary p-6">
+      <h1 className="font-heading text-yellowAccent text-3xl">
+        Welcome to My Project
+      </h1>
+      <p className="font-body text-grayLight mt-2">
+        This project follows a unified design system with a predefined color
+        palette and typography.
+      </p>
+    </div>
   );
 }
 
