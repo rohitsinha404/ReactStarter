@@ -1,16 +1,16 @@
 import "./App.css";
 import Footer from "./componets/Footer";
 import Header from "./componets/Header";
+import AuthorPage from "./pages/AuthorPage";
+import Category from "./pages/Category";
 import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
-    <main className="flex justify-center gap-4 flex-col min-h-screen">
+    <main className="">
       <Header />
-
-      <ContactPage />
-      <ExampleComponent />
-
+      {/* <Category /> */}
+      <AuthorPage />
       <Footer />
     </main>
   );
