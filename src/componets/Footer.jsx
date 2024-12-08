@@ -31,7 +31,7 @@ const JoinUs = () => {
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-whitePrimary">
+    <footer className="bg-primary text-whitePrimary mt-16">
       <JoinUs />
       <div className="container mx-auto px-8 py-12">
         <div className="flex flex-col md:flex-row justify-between">
