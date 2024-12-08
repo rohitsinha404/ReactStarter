@@ -4,13 +4,16 @@ import Header from "./componets/Header";
 import AuthorPage from "./pages/AuthorPage";
 import Category from "./pages/Category";
 import ContactPage from "./pages/ContactPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 
 function App() {
   return (
     <main className="">
       <Header />
+      <ContactPage />
+      {/* <PrivacyPolicyPage /> */}
       {/* <Category /> */}
-      <AuthorPage />
+      {/* <AuthorPage /> */}
       <Footer />
     </main>
   );
